@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01PDMI.Creditos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Feito por Ericles Nunes e Guilherme Duarte"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Voltar" Clicked="btnVoltarCreditos"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
