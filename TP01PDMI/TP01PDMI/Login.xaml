@@ -4,14 +4,14 @@
              x:Class="TP01PDMI.Login">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Aplicação teste" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,30,30,30"/>
+            <Label Text="Aplicação Teste" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,30,30,30"/>
             <Label Text="Id" FontSize="20" Padding="30,10,30,10"/>
             <Entry x:Name="user"/>
 
             <Label Text="Pass" FontSize="20" Padding="30,0,30,0"/>
             <Entry x:Name="senha"  IsPassword="True" />
 
-            <Button Text="Entrar" Clicked="btnEntrar"/>
+            <Button Text="OK" Clicked="btnEntrar"/>
             <Button Text="Limpar" Clicked="btnLimpar"/>
             <Button Text="Créditos" Clicked="btnCreditos"/>
         </StackLayout>
